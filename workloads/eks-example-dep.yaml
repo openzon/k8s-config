@@ -19,7 +19,7 @@ spec:
   template:
     metadata:
       labels:
-        app: eks-example
+        app: 603755467080.dkr.ecr.ap-northeast-2.amazonaws.com/eks-example
     spec:
       containers:
       - name: eks-example
