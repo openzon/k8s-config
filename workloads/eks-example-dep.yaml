@@ -23,7 +23,11 @@ spec:
     spec:
       containers:
       - name: eks-example
+<<<<<<< HEAD
         image: nginx
+=======
+        image: 603755467080.dkr.ecr.ap-northeast-2.amazonaws.com/eks-example:c0e1069b
+>>>>>>> c2d9e98eb54fb54fc3d4fc8fb46cc6e376a41236
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
